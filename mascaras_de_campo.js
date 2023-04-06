@@ -32,7 +32,7 @@
             $('#msg-error').hide();
         if(this.value == "br") {
          
-            $("#telefone").mask("(00) 0000-0000");
+            $("#telefone").mask("(00) 00000-0000");
         } else if(this.value == "usa") {
      
             $("#telefone").mask("(000) 000-0000");
