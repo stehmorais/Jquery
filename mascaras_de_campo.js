@@ -13,15 +13,16 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container mt-5">
         <form action="project.html">
             <div class="container">
                 <select name="nationality" id="nationality">
-                    <option value="br">BR</option>
+                    <option selected value="br">BR</option>
                     <option value="usa">USA</option>
                     <option value="es">ES</option>
                 </select>
                 <input type="text" id="telefone" name="telefone" placeholder="Insira um telefone">
+                <script>$("#telefone").mask("(00) 00000-0000");</script>
                 <p style="display:none" id="msg-error">Número de telefone inválido</p>
             </div>
         </form>
@@ -31,13 +32,10 @@
         $("#nationality").click(function() {
             $('#msg-error').hide();
         if(this.value == "br") {
-         
             $("#telefone").mask("(00) 00000-0000");
         } else if(this.value == "usa") {
-     
             $("#telefone").mask("(000) 000-0000");
         } else if(this.value == "es"){
-         
             $("#telefone").mask("(00) 000 00 00 00");
         } else{
            
