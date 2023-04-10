@@ -16,6 +16,8 @@
     <h2 class="text-center" style="font-weight:bold; text-transform: uppercase;">Nossa localização</h2>
 </div>
 
+//-> Colocar id na imagem
+// -> Selecionar com jquery hover os pontos
 <div class="container">
     <div id="pai">
         pai
