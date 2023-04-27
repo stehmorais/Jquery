@@ -1,4 +1,7 @@
 # Jquery
-Iniciando estudos no framework jquery
+## Iniciando estudos no framework jquery
 
-Biblioteca de bandeiras utilizada: https://flagicons.lipis.dev/
+### Repositório com minhas soluções Jquery realizadas durante estágio
+
+## Materiais utilizados
+Biblioteca de bandeiras: https://flagicons.lipis.dev/
